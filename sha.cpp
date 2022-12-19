@@ -376,11 +376,10 @@ string SHA512(string myString)
     return output.str();
 }
  
-// Driver Code
 int main()
 {
     // Input
-    string S = "GeeksForGeeks";
+    string S = "Cryptography";
  
     // Function Call
     cout << S << ": " << SHA512(S);
